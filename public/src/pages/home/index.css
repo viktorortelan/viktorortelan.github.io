@@ -1,0 +1,414 @@
+body {
+    background-color: #47B3FF;
+}
+
+.secao1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.cab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    animation: animation3 2s ease-in-out;
+}
+
+.cab h1 {
+    font:700 42px 'Kanit';
+    text-shadow: 0px 2px 20px #ffffffaf;
+}
+
+.cab p {
+    font:300 28px 'Kanit';
+}
+
+.cartao {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: #fff;
+    height: 700px;
+    width: 1300px;
+    animation: animation 2s ease;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 49px;
+    gap: 10px;
+}
+
+.info h1 {
+    font:500 42px 'Kanit';
+    color: #0856e6;
+}
+
+.info p {
+    font: 300 24px 'Kanit';
+    width: 800px;
+    line-height: 25px;
+}
+
+.cartao img {
+    border-radius: 0px 20px 20px 0px ;
+}
+
+@keyframes animation {
+
+    0% {
+
+        opacity: 0;
+        transform: translateX(-300px);
+
+    }
+
+    100% {
+
+        opacity: 1;
+        transform: translateX(0px);
+
+    }
+}
+
+@keyframes animation2 {
+
+    0% {
+
+        opacity: 0;
+        transform: translateX(300px);
+
+    }
+
+    100% {
+
+        opacity: 1;
+        transform: translateX(0px);
+
+    }
+}
+
+@keyframes animation3 {
+
+    0% {
+
+        opacity: 0;
+        transform: translatey(-300px);
+
+    }
+
+    100% {
+
+        opacity: 1;
+        transform: translatey(0px);
+
+    }
+}
+
+.hobby {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: #fff;
+    height: 700px;
+    width: 1300px;
+    animation: animation2 2s ease;
+}
+
+.infoho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 49px;
+    gap: 10px;
+}
+
+.infoho h1 {
+    font:500 42px 'Kanit';
+    color: #0856e6;
+    text-align: center;
+}
+
+.infoho p {
+    font: 300 24px 'Kanit';
+    width: 700px;
+    line-height: 25px;
+}
+
+.infoho a {
+    margin-top: 20px;
+    font: 300 26px 'Kanit';
+    text-decoration: none;
+    background-color: purple;
+    color: #fff;
+    text-align: center;
+    height: 45px;
+    width: 300px;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.infoho a:hover {
+    background-color: pink;
+    box-shadow: 0px 0px 15px pink;
+}
+
+.hobby img {
+    border-radius: 20px 0px 0px 20px ;
+}
+
+.nerd {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: #fff;
+    height: 700px;
+    width: 1300px;
+    animation: animation 2s ease;
+    margin-bottom: 20px;
+}
+
+.infone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 49px;
+    gap: 10px;
+}
+
+.infone h1 {
+    font:500 42px 'Kanit';
+    color: #0856e6;
+}
+
+.infone p {
+    font: 300 24px 'Kanit';
+    width: 700px;
+    line-height: 25px;
+}
+
+.nerd img {
+    border-radius: 0px 20px 20px 0px ;
+    width: 500px;
+}
+
+
+
+@media(width < 1400px ) {
+    .secao1 {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        
+    }
+    
+    .cab {
+        
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        animation: animation3 2s ease-in-out;
+    }
+    
+    .cab h1 {
+        font:700 42px 'Kanit';
+        text-shadow: 0px 2px 20px #ffffffaf;
+    }
+    
+    .cab p {
+        font:300 28px 'Kanit';
+    }
+    
+    .cartao {
+       
+        flex-direction: row;
+        border: 3px solid black;
+        border-radius: 20px;
+        background-color: #fff;
+        height: 700px;
+        width: 1300px;
+        animation: animation 2s ease;
+    }
+    
+    .info {
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 49px;
+        gap: 10px;
+    }
+    
+    .info h1 {
+        font:500 42px 'Kanit';
+        color: #0856e6;
+    }
+    
+    .info p {
+        font: 300 24px 'Kanit';
+        width: 800px;
+        line-height: 25px;
+    }
+    
+    .cartao img {
+        border-radius: 0px 20px 20px 0px ;
+    }
+    
+    @keyframes animation {
+    
+        0% {
+    
+            opacity: 0;
+            transform: translateX(-300px);
+    
+        }
+    
+        100% {
+    
+            opacity: 1;
+            transform: translateX(0px);
+    
+        }
+    }
+    
+    @keyframes animation2 {
+    
+        0% {
+    
+            opacity: 0;
+            transform: translateX(300px);
+    
+        }
+    
+        100% {
+    
+            opacity: 1;
+            transform: translateX(0px);
+    
+        }
+    }
+    
+    @keyframes animation3 {
+    
+        0% {
+    
+            opacity: 0;
+            transform: translatey(-300px);
+    
+        }
+    
+        100% {
+    
+            opacity: 1;
+            transform: translatey(0px);
+    
+        }
+    }
+    
+    .hobby {
+      
+        flex-direction: row;
+        border: 3px solid black;
+        border-radius: 20px;
+        background-color: #fff;
+        height: 700px;
+        width: 1300px;
+        animation: animation2 2s ease;
+    }
+    
+    .infoho {
+    
+        flex-direction: column;
+        justify-content: center;
+        
+        padding: 49px;
+        gap: 10px;
+    }
+    
+    .infoho h1 {
+        font:500 42px 'Kanit';
+        color: #0856e6;
+        text-align: center;
+    }
+    
+    .infoho p {
+        font: 300 24px 'Kanit';
+        width: 700px;
+        line-height: 25px;
+    }
+    
+    .infoho a {
+        margin-top: 20px;
+        font: 300 26px 'Kanit';
+        text-decoration: none;
+        background-color: purple;
+        color: #fff;
+        text-align: center;
+        height: 45px;
+        width: 300px;
+        border-radius: 25px;
+        transition: .5s;
+    }
+    
+    .infoho a:hover {
+        background-color: pink;
+        box-shadow: 0px 0px 15px pink;
+    }
+    
+    .hobby img {
+        border-radius: 20px 0px 0px 20px ;
+    }
+    
+    .nerd {
+    
+        flex-direction: row;
+        border: 3px solid black;
+        border-radius: 20px;
+        background-color: #fff;
+        height: 700px;
+        width: 1300px;
+        animation: animation 2s ease;
+        margin-bottom: 20px;
+    }
+    
+    .infone {
+  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 49px;
+        gap: 10px;
+    }
+    
+    .infone h1 {
+        font:500 42px 'Kanit';
+        color: #0856e6;
+    }
+    
+    .infone p {
+        font: 300 24px 'Kanit';
+        width: 700px;
+        line-height: 25px;
+    }
+    
+    .nerd img {
+        border-radius: 0px 20px 20px 0px ;
+        width: 500px;
+    }
+    }
+    
